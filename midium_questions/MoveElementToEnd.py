@@ -20,7 +20,7 @@ def moveElementToEnd(array, toMove):
         num = array[idx]
         if num == toMove:
             swap(array, idx, swap_idx)
-            last_idx -= 1
+            swap_idx -= 1
         else:
             idx += 1
 
