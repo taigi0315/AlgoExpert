@@ -27,4 +27,3 @@ def find_water(matrix, visited, row, col):
 
     return 1 + river_size
 
-            
